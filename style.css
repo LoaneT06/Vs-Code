@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  color: #fff;
+  background-color: #0d0d0d;
+  text-align: center;
+}
+
+/* En-tête : rideau rouge et bordure noire */
+header {
+  background: linear-gradient(to bottom, #8b0000, #5a0000);
+  color: #fff;
+  padding: 2rem 1rem;
+  border-bottom: 4px solid #000;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #ff4d4d;
+}
+
+/* Contenu principal */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  border-top: 5px solid #b30000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+section h2 {
+  color: #fff;
+  margin-bottom: 0.75rem;
+}
+
+/* Liste centrée */
+ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ff4d4d;
+}
+
+/* Pied de page */
+footer {
+  padding: 1.5rem;
+  background-color: #5a0000;
+  color: #fff;
+  border-top: 4px solid #000;
+}
+.affiches {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.affiches figure {
+  width: 220px;
+}
+
+.resume {
+  font-style: italic;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  color: #ddd;
+}
+
+.affiches img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  background-color: #333;
+  border: 3px solid #b30000;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.affiches figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
